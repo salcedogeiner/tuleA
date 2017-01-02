@@ -9,7 +9,7 @@ import (
 )
 
 func init() {
-	orm.RegisterDataBase("default", "postgres", "postgres://postgres:2648618@127.0.0.1/tuleap_db?sslmode=disable&search_path=tuleap")
+	orm.RegisterDataBase("default", "postgres", "postgres://myuser:mypass@127.0.0.1/tuleap_db?sslmode=disable&search_path=tuleap")
 }
 
 func main() {
